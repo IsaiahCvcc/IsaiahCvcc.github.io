@@ -1,0 +1,70 @@
+@charset "utf-8"; 
+html{
+   background-image:url(hubble.jpg);
+   background-repeat:no-repeat;
+   background-size: 1920px 1080px;
+}
+
+header{
+    background-color: rgb(241, 21, 223);
+    width:95%;
+    height: 95%;
+    padding-bottom: 2.5%;
+}
+body{
+    max-width:1920px;
+    min-width:1080px;
+    width:95%;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top: .5%;
+ }
+
+ #container{
+   background-color: #111e2b;
+   margin-top: 20px;
+   margin-left: 100px;
+   margin-bottom: 20px;
+   margin-right: 100px;
+   padding:25px;
+ }
+
+ body > header{
+    display:block;
+    width:100%;
+ }
+ 
+ body> header > nav li{
+    width: 20%;
+ }
+   
+ nav li{
+    display:block;
+    float:left;
+ }
+
+ nav a{
+    display:block;
+    text-align:center;
+ }
+ h1{
+    display: block;
+    text-align: center;
+ }
+ nav a {
+    background-color: rgb(240, 54, 125);
+    font-family: Champagne, cursive;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+ }  
+ 
+ nav a:link, 
+ nav a:visited {
+    color: rgb(104, 33, 133);
+ }
+ 
+ nav a:hover, 
+ nav a:active {
+    background-color: rgb(166, 255, 206);
+ }   
