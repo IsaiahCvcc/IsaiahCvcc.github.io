@@ -38,19 +38,14 @@ body{
  }
    
  nav li{
-    display:block;
-    float:left;
-    
- }
- nav ul{
-   position:relative;
-   list-style: none;
- }
+   display:block;
+   
+}
+nav a{
+   display:block;
+   text-align:center;
+  }
 
- nav a{
-    display:block;
-    text-align:center;
-   }
  h1{
     display: block;
     text-align: center;
@@ -68,11 +63,6 @@ body{
     color: rgb(104, 33, 133);
  }
  
- nav a:hover, 
- nav a:active {
-    background-color: rgb(166, 255, 206);
- }
-
  ul.submenu{
    display: none;
  }
