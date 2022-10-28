@@ -1,16 +1,24 @@
 @charset "utf-8"; 
+/* background*/
 html{
    background-image:url(hubble.jpg);
    background-repeat:repeat;
-   background-size: 1000px 1000px;
+   background-size: 1100px 1175px;
 }
+/* background*/
 
+/*Header*/
 header{
-    background-color:purple;
-    width:95%;
-    height: 95%;
-    padding-bottom: 2.5%;
+    background-color:white;
+   margin-top: 20px;
+   margin-left: .5px;
+   margin-bottom: 20px;
+   margin-right: .5px;
+    padding-bottom: 0.05%;
+    padding-top: 5%;
 }
+/*Header*/
+
 body{
     max-width:1920px;
     min-width:1080px;
@@ -19,58 +27,116 @@ body{
     margin-right:auto;
     padding-top: .5%;
  }  
+ /*body background*/
  #container{
    background-color: hsl(210, 70%, 32%);
    margin-top: 20px;
-   margin-left: 100px;
+   margin-left: .5px;
    margin-bottom: 20px;
-   margin-right: 100px;
+   margin-right: .5px;
    padding:25px;
  }
-
- body > header{
-    display:block;
-    width:100%;
- }
  
- body> header > nav li{
-    width: 20%;
- }
-   
- nav li{
-   display:block;
-   
-}
-nav a{
-   display:block;
-   text-align:center;
-  }
-
  h1{
     display: block;
     text-align: center;
+    padding-bottom: 5%;
  }
- nav a {
-    background-color: rgb(240, 54, 125);
-    font-family: Champagne, cursive;
-    font-size: 30px;
-    line-height: 40px;
-    text-align: center;
- }  
  
  nav a:link, 
  nav a:visited {
     color: rgb(104, 33, 133);
  }
+
+ .right{
+   position: absolute;
+   top: 40px;
+   right: 45px;
+   
+ }
+ .submenuTitle{
+   position: absolute;
+   top: 40px;
+   left: 44x;
+
+ }
+ .submenu{
+
+   position: absolute;
+   top: 40px;
+   left: 12px;
+ }
  
  ul.submenu{
    display: none;
+   position: absolute;
+   top:90px;
+   left: 16px;
  }
 
  a.submenuTitle:hover+ul.submenu, ul.submenu:hover{
    display:block;
  }
- ul.mainmenu > li{
-   float:left;
-   width: 20%;
+
+ /*Table Style*/
+
+ table{
+  background: white;
+  border: 10px outset powderblue;
+  font-size: 18px;
+  width:25%;
+  empty-cells: show;
+  margin-left: auto;
+  margin-right:auto;
  }
+ table.tab th, table.tab td{
+border:1px solid gray;
+padding: 10px;
+text-align: left;
+font-weight: bold;
+ }
+
+ /* New Styles Added Below */
+/*=======================
+Mobile Styles:0px to 480px
+=========================
+*/
+@media only screen and (max-device-width:480px){
+  #container{
+    font-size: 25px;
+   }
+
+   h1, h2{
+    font-size: 35px;
+  }
+
+  li{
+    font-size: 2.4em;
+  }
+  img{
+    height: 5.5em;
+  }
+
+  table.tab{
+    width:75%;
+    font-size: 2.0em;
+  }
+}
+
+   /*Menu*/
+   /*=======================
+  Tablet Styles:481px to greater
+  ==========================
+  */
+  @media only screen and (min-width:481px){
+    
+  }
+
+
+   /*=======================
+Desktop Styles:769px to to greater;
+=========================
+*/
+@media only screen and (min-width:769px){
+
+}
