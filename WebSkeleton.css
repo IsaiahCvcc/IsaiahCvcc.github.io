@@ -61,24 +61,33 @@ body{
  .right{
    position: absolute;
    top: 40px;
-   left: 1450px;
+   left: 1050px;
    
  }
  .submenuTitle{
    position: absolute;
    top:40px;
-   left: 425px;
+   left: 25px;
+  
  }
  
  ul.submenu{
    display: none;
-   position: flex;
-   top: 100px;
-   left: 425px;
+   position: absolute;
+   top: 80px;
+   left: 25px;
+    
+ }
+ nav{
+  position: relative;
+  display:block;
+  height: 200px;
+
  }
 
  a.submenuTitle:hover+ul.submenu, ul.submenu:hover{
    display:block;
+   
  }
 
  /*Table Style*/
@@ -98,6 +107,18 @@ padding: 10px;
 text-align: left;
 font-weight: bold;
  }
+
+ .age{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+.age{
+font-size:20px;
+font-weight: bold;
+}
+
 
  /* New Styles Added Below */
 /*=======================
